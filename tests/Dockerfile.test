@@ -1,4 +1,4 @@
-FROM python:3.10-slim-bookworm
+FROM python:3.12.9
 
 # Copy and install requirements
 COPY requirements.txt requirements.txt
