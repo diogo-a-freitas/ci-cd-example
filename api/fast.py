@@ -18,7 +18,7 @@ def root():
     response = {
         'greeting': 'Servus, griaß di!',
 
-        'timestamp': datetime.now()
+        'timestamp': datetime.now().strftime('%Y')
     }
 
     return response
